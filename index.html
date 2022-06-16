@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <footer id="feedback">Share Feedback</footer> -->
+    <section class="header">
+        <img class="duck-logo" src="https://duckduckgo.com/assets/logo_header.alt.v108.svg" />
+        <input type="text" id="search-text">       
+                <span id="delete" onclick="document.getElementById('search-text').value=''">&times</span>
+                    <button class="search-icon" onclick="window.location.href = 'https://duckduckgo.com/?q=' + document.getElementById('search-text').value"><i class="fas fa-search"></i></button>         
+    </section>
+<main class="side-bar">
+    <footer class="card">
+        <div class="top-half">
+            <h1>LuckLuckYo</h1>
+            <h5>Your safe search engine.</h5>
+        </div>
+        
+<p>This is our clone of the famous private search engine DuckDuckGo. The searching part of this website has been taken from the original DuckDuckGo website. We have implemented the frontend where on searching we are directed to the DuckDuckGo browser page. The searching here ensures site encryption and tracker blocking, which are features of DuckDuckGo.</p>
+        <i class="fas fa-angle-down expand-card closed" onclick="expand()"></i>
+    </footer>
+    <footer class="card searches"> 
+        <h3>Related Searches</h3>
+        <a href="#" class="item">Is LuckLuckYo better than DuckDuckGo?</a>
+        <a href="#" class="item">Why should I use LuckLuckYo?</a>
+        <a href="#" class="item">Is LuckLuckYo safe to use?</a>
+    </footer>
+</main>
+<main class="search-results">
+    <section class="website-container">
+        <img src="https://external-content.duckduckgo.com/ip3/duckduckgo.com.ico" height="14" width="14"></img>
+        <small><a href= 'https://duckduckgo.com'>https://duckduckgo.com</a></small>
+        <br>
+        <h2><a href="https://duckduckgo.com">LuckLuckYo -- Privacy, simplified</a></h2>
+        <br>
+        <p>Spread LuckLuckYo. Help your friends and family join the Luck Side! Learn why reducing tracking is important.</p> 
+        <p>About the original site: <b>DuckDuckGo</b> Learn More. Shortcuts to other sites to search off DuckDuckGo <a href="https://duckduckgo.com">Learn More</a></p>
+        <br>
+    </section>
+    <footer class="website-link-container">
+        <a href="https://start.duckduckgo.com/">Start Page</a>
+        <a href="https://duckduckgo.com/settings">Settings</a>
+        <a href="https://duckduckgo.com/about">About</a>
+        <a href="https://html.duckduckgo.com/html">HTML</a>
+        <a href="hhttps://duckduckgo.com/install">Install duckduckgo</a>
+       <a href="https://duckduckgo.com/newsletter">Newsletter</a>
+    </footer>
+
+    
+</main> 
+<script src="script.js"></script>
+    </body>
+
+</html>
